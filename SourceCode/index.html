@@ -1,0 +1,123 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtmll/DTD/xhtmll-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html"; charset="utf-8"/>
+		<title>MyCV</title>
+		<link rel="stylesheet" type="text/css" href="css/mystyle.css">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
+	</head>
+	<body >
+		<div id="top">
+			<h1 >RESUME</h1>
+			<hr>
+		</div>
+		
+		<div id="left">
+				<h1 >ABOUT ME</h1>
+				<hr style="border-width: 2px;">
+
+
+				<div class="slideshow-container">
+					<div id="auto" >
+						<div class="mySlides fade">
+						 	<div class="numbertext">1 / 4</div>
+						 	<img src="images/image.jpg" width="200;" height="250">
+						 	<!-- <div class="text">Caption Text</div> -->
+						</div>
+
+						<div class="mySlides fade">
+						  <div class="numbertext">2 / 4</div>
+						  <img src="images/image(2).jpg" width="200;" height="250">
+						  <!-- <div class="text">Caption Two</div> -->
+						</div>
+
+						<div class="mySlides fade">
+						  <div class="numbertext">3 / 4</div>
+						  <img src="images/image(3).jpg" width="200;" height="250">
+						  <!-- <div class="text">Caption Three</div> -->
+						</div>
+
+						<div class="mySlides fade">
+						  <div class="numbertext">4 / 4</div>
+						  <img src="images/image(4).jpg" width="200;" height="250">
+						  <!-- <div class="text">Caption Four</div> -->
+						</div>
+					</div>
+					
+
+					<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+					<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+				</div>
+
+
+				<h4>NAME: PHAM MINH DUONG</h4>
+				<h4>AGE: 99 Years</h4>
+				<h4>LOCATION: HCMC, Vietnam</h4>
+					<h4>DEGREE: IT Student</h4>
+				<h4>PHONE: 039 xxx 3069</h4>
+				<h4>E-MAIL:<a href="#">51702081@student.tdtu.edu.vn</a></h4>
+		</div>
+		
+		<div id="right" >
+			<h1>BIOGRAPHY</h1>
+			<hr style="border-width: 2px;">
+			<br>
+
+			<p>Sở thích thể thao và nghe nhạc. Định hướng làm việc cho một công ty phát triển ứng dụng và web</p>
+
+			<h1>SKILLS</h1>
+			<hr>
+			<br>
+
+			<ul>
+				<li>Programmung langues: C, Java, Python</li>
+				<li>Databases: SQL Server</li>
+				<li>Others: HTML, CSS, PHP</li>
+			</ul>
+
+			<h1>WORK EXPERIENCE</h1>
+			<hr>
+			<br>
+
+			<ul>
+				<li><p>Đã học môn :Phương Pháp Lập Trình, Cấu Trúc Dữ Liệu và Giải Thuật 1, Cấu Trúc Dữ Liệu và Giải Thuật 2,Hệ Cơ Sở Dữ Liệu</p></li>
+			</ul>
+
+			<h1>EXTRACURRICULAR ACTIVITIES AND AWARDS</h1>
+			<hr>
+			<br>
+
+			<h1>COURSES</h1>
+			<hr>
+			<br>
+
+			<div class="course">
+			</div>
+
+			<h1>CONTACT ME</h1>
+			<hr>
+			<br>
+
+			<form>
+				YOUR EMAIL: <br>
+				<input type="text" id="email" name="email" size="50">
+				<br><br>
+
+				YOUR MESSAGE: <br>
+				<textarea rows="5" id="message" cols="100"></textarea>
+				<br>
+
+				<button onclick="btnSendMess(event)"><a style="text-decoration: none; color: white;" href="http://elit.tdtu.edu.vn"> Send Message</a></button>
+			</form>
+			<div id="err" style="color: red; margin: auto; text-align: center;font-weight: bold;"></div>
+		</div>
+		
+		<div id="bottom"> &copy Copyright 2019. All right reserved </div>
+	</body>
+	<script src="js/main.js"></script>
+	<script src="js/course.js"></script>
+
+</html>
